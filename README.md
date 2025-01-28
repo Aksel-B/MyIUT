@@ -14,7 +14,7 @@ Avec cette app, vous pouvez :
 - Workbox (Support offline)
 
 ## Installation
-1. Clonez le repo : `git clone https://github.com/Aksel-b/.git`
+1. Clonez le repo : `git clone https://github.com/Aksel-B/MyIUT.git`
 2. Installez les dépendances : `npm install`
 3. Lancez l'app en dev : `npm run dev`
 
