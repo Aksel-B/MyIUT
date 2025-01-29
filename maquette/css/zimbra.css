@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 15px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    background-color: #007bff;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    width: 200px;
+}
+
+.toolbar {
+    background-color: #f8f9fa;
+    padding: 5px 15px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    gap: 10px;
+}
+
+.toolbar button {
+    padding: 5px 10px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.main-content {
+    display: flex;
+    height: calc(100vh - 120px);
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+
+.folder-list {
+    list-style: none;
+}
+
+.folder-item {
+    padding: 5px 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.folder-item:hover {
+    background-color: #e9ecef;
+}
+
+.mail-list {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.mail-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.mail-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.mail-item:hover {
+    background-color: #f8f9fa;
+}
+
+.mail-checkbox {
+    margin-right: 10px;
+}
+
+.mail-sender {
+    width: 200px;
+    font-weight: bold;
+}
+
+.mail-subject {
+    flex-grow: 1;
+}
+
+.mail-date {
+    width: 100px;
+    text-align: right;
+    color: #666;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.unread {
+    font-weight: bold;
+}
+
+.folder-count {
+    background-color: #e9ecef;
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-size: 0.8em;
+    color: #666;
+}
+
+.selected-mail {
+    background-color: #e3f2fd;
+}

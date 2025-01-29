@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/zimbra.css" />
+        <title>Zimbra - Université de Lille</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo-container">
+                <img src="/api/placeholder/100/40" alt="Logo Université de Lille" class="logo" />
+            </div>
+        </header>
+
+        <nav class="top-nav">
+            <div class="nav-links">
+                <a href="#">Mail</a>
+                <a href="#">Contacts</a>
+                <a href="#">Calendrier</a>
+                <a href="#">Tâches</a>
+                <a href="#">Préférences</a>
+            </div>
+            <div class="user-info">
+                <input type="search" placeholder="Rechercher" />
+                <span>Aksel Bouri ▼</span>
+            </div>
+        </nav>
+
+        <div class="toolbar">
+            <button>Nouveau message</button>
+            <button>Répondre</button>
+            <button>Rép. à tous</button>
+            <button>Faire suivre</button>
+            <button>Supprimer</button>
+            <button>Spam</button>
+            <button>Actions ▼</button>
+        </div>
+
+        <main class="main-content">
+            <aside class="sidebar">
+                <ul class="folder-list">
+                    <li class="folder-item">
+                        <span>Réception</span>
+                        <span class="folder-count">187</span>
+                    </li>
+                    <li class="folder-item">
+                        <span>Envoyé</span>
+                    </li>
+                    <li class="folder-item">
+                        <span>Brouillons</span>
+                        <span class="folder-count">5</span>
+                    </li>
+                    <li class="folder-item">
+                        <span>Spam</span>
+                    </li>
+                    <li class="folder-item">
+                        <span>Corbeille</span>
+                    </li>
+                </ul>
+            </aside>
+
+            <section class="mail-list">
+                <div class="mail-header">
+                    <div>Dossiers de mails ▼</div>
+                    <div>100 sur 187 mails</div>
+                </div>
+
+                <div class="mail-item selected-mail">
+                    <input type="checkbox" class="mail-checkbox" />
+                    <div class="mail-sender">Aksel Bouri</div>
+                    <div class="mail-subject">
+                        ANGLAIS -- Aksel Bouri Étudiant en BUT-1 Informatique
+                    </div>
+                    <div class="mail-date">11:21</div>
+                </div>
+
+                <div class="mail-item">
+                    <input type="checkbox" class="mail-checkbox" />
+                    <div class="mail-sender">GitLab</div>
+                    <div class="mail-subject">gitlab.univ-lille.fr sign-in from new location</div>
+                    <div class="mail-date">28 Jan</div>
+                </div>
+
+                <div class="mail-item">
+                    <input type="checkbox" class="mail-checkbox" />
+                    <div class="mail-sender">Nathalie Holley</div>
+                    <div class="mail-subject">
+                        [iut-touslesetudiants] - 4 Invitation au 4ème webinaire
+                    </div>
+                    <div class="mail-date">27 Jan</div>
+                </div>
+
+                <div class="mail-item">
+                    <input type="checkbox" class="mail-checkbox" />
+                    <div class="mail-sender">STEPHANIE JEAN</div>
+                    <div class="mail-subject">
+                        [iut-touslesetudiants] 1er appel à projets de l'ITES
+                    </div>
+                    <div class="mail-date">24 Jan</div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
